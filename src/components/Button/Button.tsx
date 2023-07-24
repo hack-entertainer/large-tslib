@@ -44,7 +44,8 @@ const Button = ({
         `storybook-button--${type}`
       )}
       style={textColor ? { color: textColor } : {}}
-      onClick={onClick}
+      // onClick={onClick}
+      onClick={() => { console.log('MOOD'); alert('BLOO') }}
     >
       {label}
     </button>

@@ -1,5 +1,5 @@
 {
-  "name": "tslib",
+  "name": "large-tslib",
   "version": "0.0.1",
   "description": "A set of reusable React components.",
   "main": "lib/index.js",
